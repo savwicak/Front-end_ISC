@@ -232,7 +232,7 @@ section {
   font-family: "Nunito", sans-serif;
   font-size: 16px;
   font-weight: 700;
-  color: #013289;
+  color: #4D4D4D;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -248,12 +248,12 @@ section {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #4154f1;
+  color: #093d98;
 }
 
 .navbar .getstarted,
 .navbar .getstarted:focus {
-  background: #4154f1;
+  background: #548CE7;
   padding: 8px 20px;
   margin-left: 30px;
   border-radius: 4px;
@@ -497,7 +497,7 @@ section {
   border-radius: 4px;
   transition: 0.5s;
   color: #fff;
-  background: #4154f1;
+  background: #274CB5;
   box-shadow: 0px 5px 30px rgba(65, 84, 241, 0.4);
 }
 
@@ -597,7 +597,7 @@ section {
   border-radius: 4px;
   transition: 0.5s;
   color: #fff;
-  background: #4154f1;
+  background: #274CB5;
   box-shadow: 0px 5px 25px rgba(65, 84, 241, 0.3);
 }
 
