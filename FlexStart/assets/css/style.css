@@ -251,7 +251,7 @@ section {
   color: #093d98;
 }
 
-.navbar .getstarted,
+.navbar .getstared,
 .navbar .getstarted:focus {
   background: #548CE7;
   padding: 8px 20px;
@@ -263,7 +263,7 @@ section {
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
   color: #fff;
-  background: #5969f3;
+  background: #0B409C;
 }
 
 .navbar .dropdown ul {
@@ -425,7 +425,7 @@ section {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #4154f1;
+  color: #0B409C;
 }
 
 .navbar-mobile .getstarted,
@@ -812,6 +812,10 @@ section {
 .features .feature-icons .content .icon-box p {
   font-size: 15px;
   color: #848484;
+}
+
+.container {
+  padding-left: 75px;
 }
 
 /*--------------------------------------------------------------
