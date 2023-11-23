@@ -232,7 +232,7 @@ section {
   font-family: "Nunito", sans-serif;
   font-size: 16px;
   font-weight: 700;
-  color: #013289;
+  color: #4D4D4D;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -248,12 +248,12 @@ section {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #4154f1;
+  color: #093d98;
 }
 
-.navbar .getstarted,
+.navbar .getstared,
 .navbar .getstarted:focus {
-  background: #4154f1;
+  background: #548CE7;
   padding: 8px 20px;
   margin-left: 30px;
   border-radius: 4px;
@@ -263,7 +263,7 @@ section {
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
   color: #fff;
-  background: #5969f3;
+  background: #0B409C;
 }
 
 .navbar .dropdown ul {
@@ -425,7 +425,7 @@ section {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #4154f1;
+  color: #0B409C;
 }
 
 .navbar-mobile .getstarted,
@@ -497,7 +497,7 @@ section {
   border-radius: 4px;
   transition: 0.5s;
   color: #fff;
-  background: #4154f1;
+  background: #274CB5;
   box-shadow: 0px 5px 30px rgba(65, 84, 241, 0.4);
 }
 
@@ -597,7 +597,7 @@ section {
   border-radius: 4px;
   transition: 0.5s;
   color: #fff;
-  background: #4154f1;
+  background: #274CB5;
   box-shadow: 0px 5px 25px rgba(65, 84, 241, 0.3);
 }
 
@@ -623,10 +623,11 @@ section {
 --------------------------------------------------------------*/
 .values .box {
   padding: 30px;
-  box-shadow: 0px 0 5px rgba(1, 41, 112, 0.08);
+  box-shadow: 0px 0 10px rgba(2, 39, 102, 0.08);
   text-align: center;
   transition: 0.3s;
   height: 100%;
+  border-radius: 15px;
 }
 
 .values .box img {
@@ -664,6 +665,7 @@ section {
   width: 100%;
   background: #fff;
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  border-radius: 10px;
 }
 
 .counts .count-box i {
@@ -810,6 +812,10 @@ section {
 .features .feature-icons .content .icon-box p {
   font-size: 15px;
   color: #848484;
+}
+
+.container {
+  padding-left: 75px;
 }
 
 /*--------------------------------------------------------------
@@ -1520,6 +1526,18 @@ section {
 .team .member:hover .social {
   right: 8px;
   opacity: 1;
+}
+
+.btn-mem {
+  font-family: "Poppins", "sans-serif";
+  font-size: 18px;
+  color:#ffff;
+  background-color: #012970;
+  width: 200px;
+  text-align: center;
+  align-content: center;
+  
+
 }
 
 /*--------------------------------------------------------------
